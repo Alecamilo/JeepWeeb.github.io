@@ -587,5 +587,24 @@ section  {
         right: 0;
     }
 }
+@media (max-width: 1100px){
+     #background-video {
+        width: auto;
+        height: auto;
+        top: 4%;
+        height: 10px;
+
+    }
+    .section {
+        width: auto;
+    }
+    .Update-news{
+        width: auto;
+        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+        
+    }
+    
+    
+}
 
 
